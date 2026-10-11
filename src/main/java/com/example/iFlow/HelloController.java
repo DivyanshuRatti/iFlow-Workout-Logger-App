@@ -10,4 +10,10 @@ public class HelloController {
     public String sayHello() {
         return "Welcome to FitTrack!";
     }
-}
+
+    @GetMapping("/status")
+        public String getstatus() {
+            return "FitTrack is running smoothly!";
+        }
+    }
+
